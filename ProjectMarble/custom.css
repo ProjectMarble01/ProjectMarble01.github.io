@@ -57,31 +57,31 @@ a.customTextColor .text-dark{
     bottom: 0;
 }
 .handsup {
-    background: url('/Files/ParallaxBG/homepageParallax/handsup.svg') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/ParallaxBG/homepageParallax/handsup.svg') no-repeat center;
     background-size: cover;
     transform: translateZ(-100px) scale(1.65);
     z-index: 5;  
 }
 .mountain3 {
-    background: url('/Files/ParallaxBG/homepageParallax/mountain3.png') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/ParallaxBG/homepageParallax/mountain3.png') no-repeat center;
     background-size: cover;
     transform: translateZ(-140px) scale(1.70);
     z-index: 4;    
 }
 .mountain2 {
-    background: url('/Files/ParallaxBG/homepageParallax/mountain2.png') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/ParallaxBG/homepageParallax/mountain2.png') no-repeat center;
     background-size: cover;
     transform: translateZ(-190px) scale(1.75);
     z-index: 3;   
 }
 .mountain1 {
-    background: url('/Files/ParallaxBG/homepageParallax/mountain1.png') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/ParallaxBG/homepageParallax/mountain1.png') no-repeat center;
     background-size: cover;
     transform: translateZ(-195px) scale(1.8);
     z-index: 2;
 }
 .sunSky {
-    background: url('/Files/ParallaxBG/homepageParallax/sunsky.png') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/ParallaxBG/homepageParallax/sunsky.png') no-repeat center;
     background-size: cover;
     transform: translateZ(-200px) scale(2.05);
     z-index: 1;
@@ -217,7 +217,7 @@ div.sectionHeader {
     font-size: 80px;
 }
 div.sectionBackground {
-    background: url('/Files/vectorBackground.png') no-repeat center;
+    background: url('/ProjectMarble01.github.io/Files/vectorBackground.png') no-repeat center;
     background-size: cover;
 }
     div.sectionBackground p{
