@@ -87,7 +87,7 @@ a.customTextColor .text-dark{
     z-index: 1;
 }
 .textContainer {
-    transform: translateZ(-190px) scale(1.8);
+    transform: translateZ(-175px) scale(1.8);
     z-index: 2;
     margin-top: 185px;
 }
