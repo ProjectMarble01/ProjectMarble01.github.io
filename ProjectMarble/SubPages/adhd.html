@@ -35,148 +35,138 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="sectionContainer">
+        <button type="button" class="btn btn-success btn-floating btn-lg m-0 p-2" id="btn-back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+        </button>
         <!-- Start of sections -->
         <div class="container-fluid">
             <!-- ADHD -->
-            <div class="mb-3" id="adhd">
-                <div class="sectionHeader row text-center d-flex align-items-center sectionBackground">
-                    <div class="col"><p>Attention Deficit Hyperactivity Disorder (ADHD)</p>
+            <div id="adhd">
+                <div class="mentalConditionsBody text-center d-flex align-items-center">
+                    <!-- header -->
+                    <div class="flex-row flex-fill">
+                        <div class="mt-4 mb-4"><hr class="hrStyling"></div>
+                        <h1 class="fw-bold">Attention Deficit Hyperactivity Disorder (ADHD)</h1>
+                        <h5>A simple guide in understanding attention deficit hyperactivity disorder.</h5>
                     </div>
                 </div>
-                <nav class="m-2" style="--bs-breadcrumb-divider: '>';">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="ProjectMarble/mentalconditions.html">Mental Health Conditions</a></li>
-                        
-                        <li class="breadcrumb-item dropdown"> 
-                            <a class="dropdown-toggle btn active p-0" data-bs-toggle="dropdown">ADHD</a>
-                            <ul class="dropdown-menu hover" aria-labelledby="dropdownMenu2">
-                                <li class="condition-item"><a class="dropdown-item active" href="#">ADHD</a></li>
-                                <li class="condition-item"><a class="dropdown-item" href="anxiety.html">Anxiety</a></li>
-                                <li class="condition-item"><a class="dropdown-item" href="bipolar.html">Bipolar Disorder</a></li>
-                                <li class="condition-item"><a class="dropdown-item" href="depression.html">Depression</a></li>
-                                <li class="condition-item"><a class="dropdown-item" href="ptsd.html">PTSD</a></li>
-                            </ul>
-                        </li>
-                    </ol>
-                </nav>
-                <div class="container-fluid row justify-content-center conditionsSection">
-                    <div class="sectionContent col col-8 mt-3">
-                        <div class="subPageHeader text-center">
-                            <h1 class="fw-bold">
-                                Your Guide to ADHD
-                            </h1>
-                            <h5>A simple guide to understanding attention deficit hyperactivity disorder.</h5>
-                        </div>
-                    </div>
-                    <div class="subPageSlides container-fluid row justify-content-center col-10 mt-4 mb-3">
-                        <h4 class="fw-bold text-center mb-2">Stories about ADHD</h4>
-                        <div class="articleCards col col-5">
-                            <a class="articleLink link link-dark" href="">
-                                <div class="articleImg">
-                                    <img class="img-fluid artImg" src="/ProjectMarble/images/balloons.jpg" alt="balloons">
-                                </div>
-                                <div class="articleText justify-content-start">
-                                    <span class="articleType">Lorem ipsum dolor sit.</span>
-                                    <h3>Lorem ipsum dolor sit.Lorem ipsum dolor sit.</h3>
-                                    <span class="articleDate">May 24, 2022</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="articleCards col col-5">
-                            <a class="articleLink link link-dark" href="">
-                                <div class="articleImg">
-                                    <img class="img-fluid artImg" src="/ProjectMarble/images/breakdown.jpg" alt="breakdown">
-                                </div>
-                                <div class="articleText">
-                                    <span class="articleType">Lorem ipsum dolor sit.</span>
-                                    <h3>Lorem ipsum dolor sit.Lorem ipsum dolor sit.</h3>
-                                    <span class="articleDate">May 24, 2022</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="sectionContent col col-8 mt-3">
-                        <div class="whatIs text-center">
-                            <h3 class="fw-bold">What Is ADHD?</h3>
-                            <p>Attention deficit hyperactivity disorder (ADHD) is a brain disorder that affects how you pay attention, sit still, and control your behavior. It happens in children and teens and can continue into adulthood.
-
-                                ADHD is the most commonly diagnosed mental disorder in children. Boys are more likely to have it than girls. It’s usually spotted during the early school years, when a child begins to have problems paying attention.
-                                
-                                ADHD can't be prevented or cured. But spotting it early, plus having a good treatment and education plan, can help a child or adult with ADHD manage their symptoms.
-                            </p>
-                        </div>
-                        <div class="whatSymptoms">
-                            <h3 class="fw-bold text-center">ADHD Symptoms</h3>
-                            <h4 class="fw-bold">Symptoms in children</h4>
-                            <h5 class="fw-bold">Symptoms are grouped into three types:</h5>
-                            <div class="row">
-                                <div class="col">
-                                    <h6><strong>Inattentive.</strong> A child with ADHD:</h6>
-                                    <ul>
-                                        <li>Is easily distracted</li>
-                                        <li>Doesn't follow directions or finish tasks</li>
-                                        <li>Doesn't seem to be listening</li>
-                                        <li>Doesn't pay attention and makes careless mistakes</li>
-                                        <li>Forgets about daily activities</li>
-                                        <li>Has problems organizing daily tasks</li>
-                                        <li>Doesn’t like to do things that require sitting still</li>
-                                        <li>Often loses things</li>
-                                        <li>Tends to daydream</li>
-                                    </ul>
-                                </div>
-                                <div class="col">
-                                    <h6><strong>Hyperactive-impulsive.</strong> A child with ADHD:</h6>
-                                    <ul>
-                                        <li>Often squirms, fidgets, or bounces when sitting</li>
-                                        <li>Doesn't stay seated</li>
-                                        <li>Has trouble playing quietly</li>
-                                        <li>Is always moving, such as running or climbing on things. (In teens and adults, this is more often described as restlessness.)</li>
-                                        <li>Talks excessively</li>
-                                        <li>Is always “on the go,” as if “driven by a motor”</li>
-                                        <li>Has trouble waiting for their turn</li>
-                                        <li>Blurts out answers</li>
-                                        <li>Interrupts others</li>
-                                    </ul>
-                                </div>
-                                <div class="col">
-                                    <h6><strong>Combined.</strong> This involves signs of both other types.</h6>
+                <div class="conditionsSection container-fluid col-8 rounded-3 shadow">
+                    <div class="container-fluid mx-auto pt-2">
+                        <h3 class="fw-bold text-center my-3">Inspiring Stories about ADHD</h3>
+                        <div class="subPageSlides row gx-4 mx-3 my-3">
+                            <div class="col-4">
+                                <div class="card shadow">
+                                    <img class="imgContain card-img-top" src="/ProjectMarble/images/balloons.jpg" alt="adhd">
+                                    <div class="card-body">
+                                        <p class="card-text articleType">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                        <h5 class="card-title fs-2 fw-bold">ADHD</h5>
+                                        <span class="articleDate">May 24, 2022</span>
+                                    </div>
                                 </div>
                             </div>
-
-                            <h4 class="fw-bold">Symptoms in Adults</h4>
-                            <h5 class="fw-bold">Symptoms of ADHD may change as a person gets older. They include:</h5>
-                            <div class="row">
-                                <div class="col">
-                                    <ul>
-                                        <li>Often being late or forgetting things</li>
-                                        <li>Anxiety</li>
-                                        <li>Low self-esteem</li>
-                                        <li>Problems at work</li>
-                                        <li>Trouble controlling anger</li>
-                                        <li>Impulsiveness</li>
-                                        <li>Substance misuse or addiction</li>
-                                        <li>Trouble staying organized</li>
-                                        <li>Procrastination</li>
-                                        <li>Easily frustrated</li>
-                                        <li>Often bored</li>
-                                        <li>Trouble concentrating when reading</li>
-                                        <li>Mood swings</li>
-                                        <li>Depression</li>
-                                        <li>Relationship problems</li>
-                                    </ul>
+                            <div class="col-4">
+                                <div class="card shadow">
+                                    <img  class="imgContain card-img-top" src="/ProjectMarble/images/breakdown.jpg" alt="adhd">
+                                    <div class="card-body">
+                                        <p class="card-text articleType">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                        <h5 class="card-title fs-2 fw-bold">Anxiety Disorder</h5>
+                                        <span class="articleDate">May 24, 2022</span>
+                                    </div>
                                 </div>
-                                <div class="col">
+                            </div>
+                            <div class="col-4">
+                                <div class="card shadow">
+                                    <img  class="imgContain card-img-top" src="/ProjectMarble/images/happyGroup.jpg" alt="adhd">
+                                    <div class="card-body">
+                                        <p class="card-text articleType">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                        <h5 class="card-title fs-2 fw-bold">Lorem ipsum</h5>
+                                        <span class="articleDate">May 24, 2022</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sectionContent col mt-5">
+                            <div class="whatIs text-center">
+                                <h3 class="fw-bold">What Is ADHD?</h3>
+                                <p>Attention deficit hyperactivity disorder (ADHD) is a brain disorder that affects how you pay attention, sit still, and control your behavior. It happens in children and teens and can continue into adulthood.
+
+                                    ADHD is the most commonly diagnosed mental disorder in children. Boys are more likely to have it than girls. It’s usually spotted during the early school years, when a child begins to have problems paying attention.
+                                    
+                                    ADHD can't be prevented or cured. But spotting it early, plus having a good treatment and education plan, can help a child or adult with ADHD manage their symptoms.
+                                </p>
+                            </div>
+                            <div class="whatSymptoms">
+                                <h3 class="fw-bold text-center">ADHD Symptoms</h3>
+                                <h4 class="fw-bold">Symptoms in children</h4>
+                                <h5 class="fw-bold">Symptoms are grouped into three types:</h5>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6><strong>Inattentive.</strong> A child with ADHD:</h6>
+                                        <ul>
+                                            <li>Is easily distracted</li>
+                                            <li>Doesn't follow directions or finish tasks</li>
+                                            <li>Doesn't seem to be listening</li>
+                                            <li>Doesn't pay attention and makes careless mistakes</li>
+                                            <li>Forgets about daily activities</li>
+                                            <li>Has problems organizing daily tasks</li>
+                                            <li>Doesn’t like to do things that require sitting still</li>
+                                            <li>Often loses things</li>
+                                            <li>Tends to daydream</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6><strong>Hyperactive-impulsive.</strong> A child with ADHD:</h6>
+                                        <ul>
+                                            <li>Often squirms, fidgets, or bounces when sitting</li>
+                                            <li>Doesn't stay seated</li>
+                                            <li>Has trouble playing quietly</li>
+                                            <li>Is always moving, such as running or climbing on things. (In teens and adults, this is more often described as restlessness.)</li>
+                                            <li>Talks excessively</li>
+                                            <li>Is always “on the go,” as if “driven by a motor”</li>
+                                            <li>Has trouble waiting for their turn</li>
+                                            <li>Blurts out answers</li>
+                                            <li>Interrupts others</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h6><strong>Combined.</strong> This involves signs of both other types.</h6>
+                                    </div>
+                                </div>
+
+                                <h4 class="fw-bold">Symptoms in Adults</h4>
+                                <h5 class="fw-bold">Symptoms of ADHD may change as a person gets older. They include:</h5>
+                                <div class="row">
+                                    <div class="col">
+                                        <ul>
+                                            <li>Often being late or forgetting things</li>
+                                            <li>Anxiety</li>
+                                            <li>Low self-esteem</li>
+                                            <li>Problems at work</li>
+                                            <li>Trouble controlling anger</li>
+                                            <li>Impulsiveness</li>
+                                            <li>Substance misuse or addiction</li>
+                                            <li>Trouble staying organized</li>
+                                            <li>Procrastination</li>
+                                            <li>Easily frustrated</li>
+                                            <li>Often bored</li>
+                                            <li>Trouble concentrating when reading</li>
+                                            <li>Mood swings</li>
+                                            <li>Depression</li>
+                                            <li>Relationship problems</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <!-- Call to action -->
         <div class="container-fluid col-8">
+            <div class="mt-4 mb-4"><hr class="hrStylingTwo"></div>
             <div class="m-3 row text-center">
                 <div class="ctaText mb-3">
                     <h2>Want to share your story? Ready to talk to someone? We are here ready to help you.</h2>
