@@ -44,108 +44,123 @@
         </div>
     </header>
     <main class="mainContainer">
+        <button type="button" class="btn btn-success btn-floating btn-lg m-0 p-2" id="btn-back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+        </button>
         <div class="container-fluid col-8">
-            <!-- Mental Conditions Buttons -->
-            <div class="text-center">
-                <div class="mentalConditions d-flex justify-content-between row mt-2">
-                    <a class="col mx-2 p-0 btn iconBtn" href="/ProjectMarble/SubPages/anxiety.html"><img class="iconMental img-fluid" src="/Files/iconAnxiety.png" alt="Anxiety Disorder"><p class="fs-3 iconBtn">Anxiety</p></a>
-                    <a class="col mx-2 p-0 btn iconBtn" href="/ProjectMarble/SubPages/adhd.html"><img class="iconMental img-fluid" src="/Files/iconADHD.png" alt="ADHD"><p class="fs-3 iconBtn">ADHD</p></a>
-                    <a class="col mx-2 p-0 btn iconBtn" href="/ProjectMarble/SubPages/bipolar.html"><img class="iconMental img-fluid" src="/Files/iconBipolar.png" alt="Bipolar Disorder"><p class="fs-3 iconBtn">Bipolar Disorder</p></a>
-                    <a class="col mx-2 p-0 btn iconBtn" href="/ProjectMarble/SubPages/ptsd.html"><img class="iconMental img-fluid" src="/Files/iconPTSD.png" alt="PTSD"><p class="fs-3 iconBtn">PTSD</p></a>
-                    <a class="col mx-2 p-0 btn iconBtn" href="/ProjectMarble/SubPages/depression.html"><img class="iconMental img-fluid" src="/Files/iconDepression.png" alt="Depression"><p class="fs-3 iconBtn">Depression</p></a>
-                </div>
-            </div>
-            <div class="mt-5 mb-3"><hr class="hrStylingTwo"></div>
-            <div class="text-center fs-1">Stories that could inspire you.</div>
-            <!-- Stories -->
-            <div class="contentContainer">
-                <div class="row m-3 text-center bodyContainer rounded-3 text-dark py-3 px-4">
-                        <h2 class="customText">Lorem ipsum dolor sit amet.</h2>
-                        <p class="customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! Aliquam porro laborum vel.
-                        A temporibus eius nam quos nihil quasi rerum! Autem facilis tenetur ducimus aspernatur, reiciendis quod maxime aliquam nostrum nobis officiis! Voluptatem magni porro beatae quam iure recusandae sint enim iste.</p>
-                        <div class="d-grid gap-2 col-2 mx-auto"><button class="btn customBtn">Read more</button></div>
-
-                    <div class="row m-3">
-                        <div class="col text-center bodyContainer bg-light rounded-3 text-dark py-3 px-4 m-3">
-                            <h2 class="customText">Lorem</h2>
-                            <p class="customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! Aliquam porro laborum vel.
-                            A temporibus eius nam quos nihil quasi rerum! Autem facilis tenetur ducimus aspernatur, reiciendis quod maxime aliquam nostrum nobis officiis! Voluptatem magni porro beatae quam iure recusandae sint enim iste.</p>
-                            <div class="d-grid gap-2 col-4 mx-auto"><button class="btn customBtn">Read more</button></div>
-                        </div>
-                        <div class="col text-center bodyContainer rounded-3 text-dark py-3 px-4 m-3">
-                            <h2 class="customText">Lorem</h2>
-                            <p class="customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! Aliquam porro laborum vel.
-                            A temporibus eius nam quos nihil quasi rerum! Autem facilis tenetur ducimus aspernatur, reiciendis quod maxime aliquam nostrum nobis officiis! Voluptatem magni porro beatae quam iure recusandae sint enim iste.</p>
-                            <div class="d-grid gap-2 col-4 mx-auto"><button class="btn customBtn">Read more</button></div>
+        <!-- cards -->
+            <div class="container-fluid my-0 mx-auto mentalBodyContainer py-3 rounded-3 shadow">
+                <div class="row gx-4 mb-3 mx-3">
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img class="imgContain card-img-top" src="/ProjectMarble/images/balloons.jpg" alt="adhd">
+                            <div class="card-body">
+                                <h5 class="card-title fs-2 fw-bold">ADHD</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="/ProjectMarble/SubPages/adhd.html">GO TO CONDITION →</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row m-3">
-                        <div class="col text-center bodyContainer rounded-3 text-dark py-3 px-4 m-3">
-                            <h2 class="customText">Lorem</h2>
-                            <p class="customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! Aliquam porro laborum vel.
-                            A temporibus eius nam quos nihil quasi rerum! Autem facilis tenetur ducimus aspernatur, reiciendis quod maxime aliquam nostrum nobis officiis! Voluptatem magni porro beatae quam iure recusandae sint enim iste.</p>
-                            <div class="d-grid gap-2 col-4 mx-auto"><button class="btn customBtn">Read more</button></div>
-                        </div>
-                        <div class="col text-center bodyContainer bg-light rounded-3 text-dark py-3 px-4 m-3">
-                            <h2 class="customText">Lorem</h2>
-                            <p class="customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! Aliquam porro laborum vel.
-                            A temporibus eius nam quos nihil quasi rerum! Autem facilis tenetur ducimus aspernatur, reiciendis quod maxime aliquam nostrum nobis officiis! Voluptatem magni porro beatae quam iure recusandae sint enim iste.</p>
-                            <div class="d-grid gap-2 col-4 mx-auto"><button class="btn customBtn">Read more</button></div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/breakdown.jpg" alt="adhd">
+                            <div class="card-body">
+                                
+                                <h5 class="card-title fs-2 fw-bold">Anxiety Disorder</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success"href="/ProjectMarble/SubPages/anxiety.html">GO TO CONDITION →</a>
+                            </div>
                         </div>
                     </div>
-                    <!-- End of Intro -->
-                </div>
-            </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img class="imgContain card-img-top" src="/ProjectMarble/images/support2.jpg" alt="adhd">
+                            <div class="card-body">
+                                
+                                <h5 class="card-title fs-2 fw-bold">Bipolar Disorder</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="/ProjectMarble/SubPages/bipolar.html">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img class="imgContain card-img-top" src="/ProjectMarble/images/pretend.jpg" alt="adhd">
+                            <div class="card-body">
 
-            <div class="mt-5 mb-3"><hr class="hrStylingTwo"></div>
+                                <h5 class="card-title fs-2 fw-bold">Depression</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="/ProjectMarble/SubPages/depression.html">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/signs.jpg" alt="adhd">
+                            <div class="card-body">
+                                
+                                <h5 class="card-title fs-2 fw-bold">PTSD</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="/ProjectMarble/SubPages/ptsd.html">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/happyGroup.jpg" alt="adhd">
+                            <div class="card-body">
 
-            <!-- News -->
-            <div class="text-center fs-2">Latest News</div>
-            <div class="m-3 row bodyContainer rounded-3 text-dark py-3 px-4 d-flex align-items-center">
-                <div class="col col-3 d-flex justify-content-center">
-                    <img class="newsImage" src="/Files/mentalWellness.jpg" alt="">
-                </div>
-                <div class="col col-8">
-                    <h2 class="row customText fs-4">Lorem ipsum dolor sit amet.</h2>
-                    <p class="row customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! </p>
-                </div>
-            </div>
-            <div class="m-3 row bodyContainer rounded-3 text-dark py-3 px-4 d-flex align-items-center">
-                <div class="col col-3 d-flex justify-content-center">
-                    <img class="newsImage" src="/Files/mentalWellness.jpg" alt="">
-                </div>
-                <div class="col col-8">
-                    <h2 class="row customText fs-4">Lorem ipsum dolor sit amet.</h2>
-                    <p class="row customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! </p>
-                </div>
-            </div>
-            <div class="m-3 row bodyContainer rounded-3 text-dark py-3 px-4 d-flex align-items-center">
-                <div class="col col-3 d-flex justify-content-center">
-                    <img class="newsImage" src="/Files/mentalWellness.jpg" alt="">
-                </div>
-                <div class="col col-8">
-                    <h2 class="row customText fs-4">Lorem ipsum dolor sit amet.</h2>
-                    <p class="row customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! </p>
-                </div>
-            </div>
-            <div class="m-3 row bodyContainer rounded-3 text-dark py-3 px-4 d-flex align-items-center">
-                <div class="col col-3 d-flex justify-content-center">
-                    <img class="newsImage" src="/Files/mentalWellness.jpg" alt="">
-                </div>
-                <div class="col col-8">
-                    <h2 class="row customText fs-4">Lorem ipsum dolor sit amet.</h2>
-                    <p class="row customText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Et velit omnis eligendi, quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! quo dolores eos architecto dolore maxime quas autem quam esse quae ipsa quibusdam accusamus! </p>
-                </div>
-            </div>
-            <!-- End of News section -->
+                                <h5 class="card-title fs-2 fw-bold">Lorem</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="#">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/happyGroup.jpg" alt="adhd">
+                            <div class="card-body">
 
-            <div class="mt-5 mb-3"><hr class="hrStylingTwo"></div>
+                                <h5 class="card-title fs-2 fw-bold">Lorem</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="#">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/happyGroup.jpg" alt="adhd">
+                            <div class="card-body">
 
+                                <h5 class="card-title fs-2 fw-bold">Lorem</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="#">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 my-3">
+                        <div class="card shadow">
+                            <img  class="imgContain card-img-top" src="/ProjectMarble/images/happyGroup.jpg" alt="adhd">
+                            <div class="card-body">
+
+                                <h5 class="card-title fs-2 fw-bold">Lorem</h5>
+                                <p class="card-text">With the right information adults and children alike can learn to manage their ADHD sypmtoms.</p>
+                                <a class="btn text-success" href="#">GO TO CONDITION →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid col-8">
+            <div class="mt-4 mb-4"><hr class="hrStylingTwo"></div>
             <!-- Call to action -->
             <div class="m-3 row text-center">
                 <div class="ctaText mb-3">
                     <h2>Want to share your story? Ready to talk to someone? We are here ready to help you.</h2>
-                    <button class="btn ctaBtn">Talk to us.</button>
+                    <a class="btn ctaBtn" href="/ProjectMarble/help.html">Talk to us.</a>
                 </div>
             </div>
         </div>
