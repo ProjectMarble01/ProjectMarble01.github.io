@@ -87,7 +87,7 @@ a.customTextColor .text-dark{
     z-index: 1;
 }
 .textContainer {
-    transform: translateZ(-175px) scale(1.8);
+    transform: translateZ(-190px) scale(1.8);
     z-index: 2;
     margin-top: 185px;
 }
@@ -159,6 +159,12 @@ div.bodyContainer{
 .mainContainer {
     background-image: linear-gradient(#216659 5%, #f7f7f7 5% 75%);
 }
+.sectionContainer {
+    background-image: linear-gradient(#216659 20%, #f7f7f7 20% 75%);
+}
+    div.conditionsSection {
+        background-color: #d1e7e3;
+    }
 a.iconBtn {
     background-color: #fff;
     transition: transform 0.2s;
@@ -252,6 +258,19 @@ div.mentalConditionsBody{
     }
     div.mentalBodyContainer{
         background-color: #d1e7e3;
+    }
+div.helpBody {
+    background-color: #216659;
+    width: 100%;
+    min-width: 100%;
+    height: 35vh;
+    color: #ffffff;
+}
+    div.helpBody h1{
+        font-size: 8vh;
+    }
+    div.helpBody p{
+        font-size: 2.5vh;
     }
 img.imgContain{
     max-width: 100%;
