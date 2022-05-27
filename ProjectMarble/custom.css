@@ -93,8 +93,8 @@ a.customTextColor .text-dark{
 }
 .headerLogo {
     height: 15em;
-    min-height: 15em;
-    width: auto;
+    min-width: 400px;
+    min-height: auto;
 }
 #btn-back-to-top {
     position: fixed;
