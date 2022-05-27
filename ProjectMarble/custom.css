@@ -92,8 +92,7 @@ a.customTextColor .text-dark{
     margin-top: 185px;
 }
 .headerLogo {
-    height: 15em;
-    min-width: 420px;
+    width: 700px;
     min-height: auto;
 }
 #btn-back-to-top {
@@ -212,12 +211,12 @@ button.customBtn{
     }
 
 div.newsImgCon{
-    width: 8vw;
-    min-width: 100px;
-    height: 100px;
+    min-width: 150px;
+    min-height: 150px;
+    width: 5vw;
+    height: 150px;
 }
     div.newsImgCon img.newsImage {
-        max-width: 100%;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -328,13 +327,36 @@ div.socmedIcons svg {
     transform: scale(1.10);
     color: #fad462;
     }
-@media all and (max-width:750px) {
+h1 {
+    font-size: 8em;
+}
+div.customTextCon {
+    min-height: 350px;
+    height: 350px;
+    max-height: 500px;
+    overflow: hidden;
+}
+div.newsBodyContainer {
+    max-height: 380px;
+    overflow: hidden;
+}
+@media all and (max-width:810px) {
     /* for homepage */
     a.iconBtn {
-        min-width: 150px;
         min-height: 200px;
     }
     div.contentContainer {
         width: 100%;
     }
+    .headerLogo {
+        min-width: 700px;
+    }
 }
+@media all and (max-width:809px){
+    .headerLogo {
+        width: 20em;
+        min-width: 420px;
+    }
+}
+
+
