@@ -333,6 +333,11 @@ div.socmedIcons svg {
 #mentalGuls {
     font-size: calc(1vw + 5px) ;
 }
+div.textCard {
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
 div.customTextCon {
     min-height: 350px;
     height: 350px;
