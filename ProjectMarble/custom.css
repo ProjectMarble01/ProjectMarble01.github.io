@@ -92,15 +92,9 @@ a.customTextColor .text-dark{
     margin-top: 185px;
 }
 .headerLogo {
-    height: 18vh;
-    min-height: 18vh;
+    height: 15em;
+    min-height: 15em;
     width: auto;
-}
-.textHeader {
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 100%;
-    color: #011713; 
 }
 #btn-back-to-top {
     position: fixed;
