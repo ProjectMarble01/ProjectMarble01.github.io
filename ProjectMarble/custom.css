@@ -87,7 +87,7 @@ a.customTextColor .text-dark{
     z-index: 1;
 }
 .textContainer {
-    transform: translateZ(-185px) scale(1.65);
+    transform: translateZ(-195px) scale(1.50);
     z-index: 2;
     margin-top: 185px;
 }
@@ -210,10 +210,18 @@ button.customBtn{
         background-color: #d1e7e3;
         border: 2px solid #216659;
     }
-div img.newsImage {
-    width: 120px;
-    height: 120px;
+
+div.newsImgCon{
+    width: 8vw;
+    min-width: 100px;
+    height: 100px;
 }
+    div.newsImgCon img.newsImage {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 a.ctaBtn {
     color: #143b34;
     font-size: 2.5vh;
